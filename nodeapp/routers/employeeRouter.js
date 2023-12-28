@@ -1,6 +1,6 @@
 const express = require('express');
 const employeeController = require('../controllers/employeeController');
-const {validateToken} = require('../authUtil');
+const {validateToken} = require('../authUtils');
 const router = express.Router();
 
   // Get all Employee Details
